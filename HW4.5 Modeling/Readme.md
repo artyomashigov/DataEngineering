@@ -1,2 +1,2 @@
-You can create a database from a model or ER diagram
+You can create a university schema with tables from a model or ER diagram <br>
 Find the schema in universityschema.mwb
