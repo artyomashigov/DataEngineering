@@ -9,7 +9,10 @@ Note: To understand the process of the project you should follow this documentat
 
 `EER_model_stolen_vehicles.mwb` represents the EER diagram of the dataset.
 
-Note 2: The project was tested in `Windows` and `MacOS` environments. No issues were found.
+Note 2: The project was tested in `Windows` and `MacOS` environments. No issues were found.                                                                    
+
+For Mac disable safe update mode using SET SQL_SAFE_UPDATES = 0; before running the script.
+
 
 
 <br/>
