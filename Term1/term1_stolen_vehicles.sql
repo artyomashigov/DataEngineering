@@ -7,7 +7,7 @@ Which vehicle types are most and least frequently stolen? Does this vary by regi
 What is the percentage of stolen Luxury cars?
 What is the average age of the stolen vehicles, and does it vary based on the vehicle type?
 What is the number of thefts for different density levels?
-Which regions experience the most and least number of stolen vehicles, and what are the characteristics of these regions? */
+Which regions experience the most and least number of stolen vehicles? */
 
 /*The analytical layer will be created using stored procedures and triggers. 
 Data marts will help to find answers for police departments in different regions of New Zealand. 
@@ -338,9 +338,9 @@ FROM
 GROUP BY 
     vehicle_type;
 
--- 6. Which regions experience the most and least number of stolen vehicles, and what are the characteristics of these regions? 
+-- 6. Which regions experience the most and least number of stolen vehicles? 
 
-SELECT region, COUNT(*) as number_of_thefts, population, density
+SELECT region, COUNT(*) as number_of_thefts
 FROM stolen_vehicles_records
 GROUP BY region
 
