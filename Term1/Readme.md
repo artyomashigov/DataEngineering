@@ -51,7 +51,7 @@ Using the stolen vehicles dataset we can analyze:
 - What is the percentage of stolen Luxury cars?
 - What is the average age of the stolen vehicles, and does it vary based on the vehicle type?
 - What is the number of thefts for different density levels?
-- Which regions experience the most and least number of stolen vehicles, and what are the characteristics of these regions?
+- Which regions experience the most and least number of stolen vehicles?
 
 Using stored procedures and triggers to create the analytical layer allows us to encapsulate the complex logic of the analysis in reusable and maintainable code. Additionally, triggers can be used to automatically update the analytical layer when the data in the operational layer changes. Data marts would help to find answers for police departments in different regions of New Zealand.
 
