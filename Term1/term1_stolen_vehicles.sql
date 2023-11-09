@@ -258,7 +258,7 @@ TRUNCATE logs_;
 -- PART 5: Creating Data marts
 -- STEP 1: Creating view for different regions
 -- Region = 'Auckland'
-DROP VIEW IF EXISTS Vintage_Cars;
+DROP VIEW IF EXISTS Auckland;
 
 CREATE VIEW `Auckland` AS
 SELECT * FROM stolen_vehicles_records WHERE region = 'Auckland';
